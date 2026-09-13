@@ -89,7 +89,7 @@ public class Creation implements AccountCreation {
         return (n == 10);
     }
 
-    public int accountNoCreation() throws IOException {
+    public int accNoCreation() throws IOException {
         String lastLine = "";
         int accountNo;
         try {
